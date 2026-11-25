@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 45325571}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 1110367222}
   - component: {fileID: 1110367221}
   - component: {fileID: 1110367224}
+  - component: {fileID: 1110367225}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -342,6 +343,33 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1110367225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110367220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02310b6d06d058549b648312ff5b8d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 45325573}
+  lookAtOffset: {x: 0, y: 1.5, z: 0}
+  distance: 7.5
+  minDistance: 1.5
+  mouseSensitivity: 0.15
+  stickSensitivity: 140
+  minPitch: -25
+  maxPitch: 65
+  invertY: 0
+  followSmoothSpeed: 18
+  obstacleLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  collisionBuffer: 0.35
+  lockCursorInPlayMode: 1
 --- !u!1 &1127978324
 GameObject:
   m_ObjectHideFlags: 0
