@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/MainScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Adil/AdilScene.unity
+    guid: c2dd8a4df364c57459a5560c8ad491ff
+  - enabled: 1
+    path: Assets/Scenes/Adil/MenusScene.unity
+    guid: 62ad045a3a3157344915dd0914a76e99
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
